@@ -1,0 +1,430 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS -->
+    <link href="../actor-webapp/assets/css/reset.css" rel="stylesheet">
+    <link href="../actor-webapp/assets/css/stylesheet.css" rel="stylesheet">
+    <link href="../actor-webapp/assets/css/responsive.css" rel="stylesheet">
+
+    <title>Petros</title>
+</head>
+
+<body class="">
+
+    <div id="app" class="page-home page-allevents">
+
+
+        <header class="app-header">
+            <div class="flex-container">
+                <div class="flex-header">
+                    <button class="btn-canvas-menu">
+                        <img src="../actor-webapp/assets/img/icon-canvasmenu.svg" alt="menu">
+                    </button>
+
+                    <div class="logo">
+                        <a href="#"><img src="../actor-webapp/assets/img/logo.svg" alt="logo"></a>
+                    </div>
+
+                    <nav class="app-menu">
+                        <ul>
+                            <li>
+                                <a href="#"><img src="../actor-webapp/assets/img/home-menu.svg" alt="Home"> Home</a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="../actor-webapp/assets/img/myevent-menu.svg" alt="My Events"> All
+                                    Events</a>
+                            </li>
+                            <li class="active">
+                                <a href="#"><img src="../actor-webapp/assets/img/createevent-menu.svg"
+                                        alt="Create Events"> My Bookings</a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="../actor-webapp/assets/img/contact-menu.svg" alt="Contact Us">
+                                    Contact Us</a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <div class="account-links">
+                        <div class="search">
+                            <a class="icon" href="#">Search</a>
+                        </div>
+                        <div class="notification-bell">
+                            <a class="icon" href="#">Notification</a>
+                            <span class="count"></span>
+                        </div>
+                        <div class="account-dropdown">
+                            <a class="icon" href="#"><img src="../actor-webapp/assets/img/icon-userpic.png"
+                                    alt="User"></a>
+                            <ul>
+                                <li><a href="#">My Account</a></li>
+                                <li><a href="#">About Livestage</a></li>
+                                <li><a href="#">Sign Out</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section class="make-booking-wrapper">
+            <div class="flex-container">
+                <div class="breadcrumbs">
+                    <ul>
+                        <li><a href="#">Home</a> <span>&gt;</span> </li>
+                        <li><a href="#">All Events</a> <span>&gt;</span> </li>
+                        <li><a href="#">Book Now</a> <span>&gt;</span> </li>
+                        <li>Make Booking</li>
+                    </ul>
+                </div>
+                <div class="inner-bookings-row">
+                    <div class="col-make-bookings col-lhs-booking">
+                        <div class="row-book">
+                            <div class="inner-booking-cols cols-lhs">
+                                <img src="../actor-webapp/assets/img/make-bookings-img.png" alt="">
+                            </div>
+                            <!-----inner-bookings-cols---->
+                            <div class="inner-booking-cols cols-rhs">
+                                <div class="title-make-bookings">
+                                    <h3>Event Name Dummy Text Here</h3>
+                                    <h4>Event Category</h4>
+                                </div>
+                                <div class="content-make-bookings">
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur ad ipi scin ge lit, sed doeiunsectet
+                                        ursmod
+                                        tempor incididunt ut lab oreet
+                                        dolore eiunsecte.Lorem ipsum dolor sit amet, consectetur ad ipi scin ge lit,
+                                        sed.Lorem
+                                        ipsum dolor sit amet, consectetur
+                                        ad ipi scin ge lit, sed scin in ge scin ge lit, sed sgedoeiunsectet ursmod temp.
+                                    </p>
+                                </div>
+                                <!---content-make--bookings---->
+                            </div>
+                            <!----inner-booking-cols--->
+                        </div>
+                        <!---col-make-bookings---->
+                        <div class="wrapper-artist">
+                            <div class="title-make-bookings artist-main">
+                                <h3>Artist</h3>
+                            </div>
+                            <div class="row-artist">
+                                <div class="col-artist artist-lhs">
+                                    <img src="../actor-webapp/assets/img/artist-img.png" alt="">
+                                </div>
+                                <!-----artist---lhs--->
+
+                                <div class="col-artist artist-rhs">
+                                    <div class="inner-booking-cols ">
+                                        <div class="title-make-bookings artist-title">
+                                            <h3>Artist</h3>
+                                            <p>Artist Category Name</p>
+                                            <span class="like-con-book"><img
+                                                    src="../actor-webapp/assets/img/icon-like.svg" alt="">85</span>
+                                        </div>
+                                        <div class="content-make-bookings artist-content">
+                                            <p>
+                                                Lorem ipsum dolor sit amet,consec doe iusm odt em porincid idunt ipsum
+                                                dolor sit doe iusm odt em porinc.
+                                            </p>
+                                        </div>
+                                        <!---content-make--bookings---->
+                                    </div>
+                                </div>
+                                <!-----artist---rhs--->
+                            </div>
+                            <!-----title-make--bookings------>
+                        </div>
+                        <!------wrapper--artist---->
+                    </div>
+                    <!--------col-make-bookings------->
+                    <div class="col-make-bookings col-rhs-booking">
+                        <div class="booking-details-form">
+                            <div class="book-form-title">
+                                <h4>Booking Details</h4>
+                            </div>
+                            <div class="booking-from-wrap">
+                                <form action="" class="book-details">
+                                    <div class="field-container">
+                                        <div class="input-conatiner">
+                                            <div class="field-wrap pirice-add change-field">
+                                                <label for="">Booking user details</label>
+                                                <input type="text" id="appt" name="price" placeholder="Email Address">
+                                                <div class="icon-plus-wrapper"><a href="#"><img
+                                                            src="../actor-webapp/assets/img/icon-addround.svg"
+                                                            alt=""></a></div>
+                                            </div>
+                                            <!-------field-wrap------->
+                                        </div>
+                                        <!-----input-container------->
+                                        <div class="user-row">
+                                            <div class="user-col">
+                                                <div class="user-details">
+                                                    <p>Event Date and Time</p>
+                                                </div>
+                                                <!------user-details------->
+                                                <div class="user-details">
+                                                    <p>Number of Tickets</p>
+                                                </div>
+                                                <!------user-details------->
+                                                <div class="user-details">
+                                                    <p>Total Amount</p>
+                                                </div>
+                                                <!------user-details------->
+                                            </div>
+                                            <!-------user-col-------->
+                                            <div class="user-col user-col-rhs">
+                                                <div class="user-details">
+                                                    <p>25 Dec 2020 | 11:45 PM</p>
+                                                </div>
+                                                <!------user-details------->
+                                                <div class="user-details">
+                                                    <p>02</p>
+                                                </div>
+                                                <!------user-details------->
+                                                <div class="user-details">
+                                                    <p>$ 20</p>
+                                                </div>
+                                                <!------user-details------->
+                                            </div>
+                                            <!-------user-col-------->
+                                        </div>
+                                        <!------user-row------>
+                                        <div class="input-conatiner full-user">
+                                            <div class="field-wrap pirice-add change-field">
+                                                <label for="">Apply Voucher Code</label>
+                                                <input type="text" id="appt" name="price"
+                                                    placeholder="Enter Voucher Code">
+                                            </div>
+                                        </div>
+                                        <!-------field-wrap------->
+                                        <div class="input-conatiner pay-mode-row">
+                                            <div class="field-wrap pirice-add change-field col-pay-mode">
+                                                <span>Your default Payment Mode</span>
+                                                <label class="pure-checkbox pay-check">
+                                                    <input type="checkbox">
+                                                    <span class="checkmark change-tick"></span><img
+                                                        src="../actor-webapp/assets/img/icon-visa.png" alt="">
+                                                    <span>************02469</span>
+                                                </label>
+                                            </div>
+                                            <!----field-wrap----->
+                                            <div class="field-wrap pirice-add change-field col-pay-mode">
+                                                <label class="change-option" for=""><a href="#">Change</a></label>
+                                                <input type="text" id="appt" name="price" placeholder="CVV">
+                                            </div>
+                                            <!----field-wrap----->
+                                        </div>
+                                        <div class="btn-pay-con">
+                                            <button class="primary-button" href="#">Pay Now</button>
+                                        </div>
+                                    </div>
+                                    <!-----input-container------->
+                            </div>
+                        </div>
+                        <!-----field-container----->
+
+                        </form>
+                        <!-----book--details---->
+                    </div>
+                    <!------booking-from-wrap------->
+                </div>
+                <!------booking-details-form------>
+            </div>
+            <!---col-rhs-booking---->
+    </div>
+    <!-----inner-bookings-row---->
+    </div>
+    <!-----flex-container---->
+    </section>
+    <!---make-booking-wrapper--->
+    <footer class="app-footer">
+        <div class="flex-container">
+            <div class="footer-content">
+                <div class="question">
+                    Questions? Call 415-784-458
+                </div>
+                <div class="footer-menu">
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Terms of Use</a></li>
+                        <li><a href="#">Cookie Preferences</a></li>
+                        <li><a href="#">Help Centre</a></li>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Event Information</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                Copyright 2020. All Rights Reserved Live Stage
+            </div>
+        </div>
+    </footer>
+
+    </div>
+
+
+    <!-- Notifications -->
+    <div class="sidebar-model">
+        <div class="model-head">
+            <h2>Notifications</h2>
+            <a href="#" class="model-close">&#10006;</a>
+        </div>
+        <div class="model-body">
+            <div class="notification-items">
+                <div class="loop item">
+                    <a href="#">
+                        <div class="img">
+                            <img src="../actor-webapp/assets/img/n-img.jpg" alt="img">
+                        </div>
+                        <div class="content">
+                            <div class="title">
+                                <h4>Event Name</h4>
+                                <p class="date">22 Aug , 11:45 AM</p>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor dolore
+                                magna aliqua.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="loop item">
+                    <a>
+                        <div class="img">
+                            <img src="../actor-webapp/assets/img/n-img.jpg" alt="img">
+                        </div>
+                        <div class="content">
+                            <div class="title">
+                                <h4>Event Name</h4>
+                                <p class="date">22 Aug , 11:45 AM</p>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor dolore
+                                magna aliqua.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="loop item">
+                    <a>
+                        <div class="img">
+                            <img src="../actor-webapp/assets/img/n-img.jpg" alt="img">
+                        </div>
+                        <div class="content">
+                            <div class="title">
+                                <h4>Event Name</h4>
+                                <p class="date">22 Aug , 11:45 AM</p>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor dolore
+                                magna aliqua.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="loop item">
+                    <a>
+                        <div class="img">
+                            <img src="../actor-webapp/assets/img/n-img.jpg" alt="img">
+                        </div>
+                        <div class="content">
+                            <div class="title">
+                                <h4>Event Name</h4>
+                                <p class="date">22 Aug , 11:45 AM</p>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor dolore
+                                magna aliqua.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="loop item">
+                    <a>
+                        <div class="img">
+                            <img src="../actor-webapp/assets/img/n-img.jpg" alt="img">
+                        </div>
+                        <div class="content">
+                            <div class="title">
+                                <h4>Event Name</h4>
+                                <p class="date">22 Aug , 11:45 AM</p>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor dolore
+                                magna aliqua.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="loop item">
+                    <a>
+                        <div class="img">
+                            <img src="../actor-webapp/assets/img/n-img.jpg" alt="img">
+                        </div>
+                        <div class="content">
+                            <div class="title">
+                                <h4>Event Name</h4>
+                                <p class="date">22 Aug , 11:45 AM</p>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor dolore
+                                magna aliqua.</p>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="overlay"></div>
+    <!-- end -->
+
+    <!-- Menu - ipad, mobile -->
+    <div class="canvas-menu">
+        <div class="relative">
+            <button class="btn-menu-hide">Close</button>
+            <div class="canvas-menu-items">
+                <div class="user">
+                    <img src="../actor-webapp/assets/img/user-image.jpg" alt="user">
+                    <h3>Hi Adam,</h3>
+                    <h4>Welcome</h4>
+                </div>
+                <ul>
+                    <li><a href="#"><img src="../actor-webapp/assets/img/icon-booking-m.svg" alt="nav"> My Bookings</a>
+                    </li>
+                    <li><a href="#"><img src="../actor-webapp/assets/img/icon-bel-m.svg" alt="nav"> Notifications</a>
+                    </li>
+                    <li><a href="#"><img src="../actor-webapp/assets/img/icon-account-m.svg" alt="nav"> My Account</a>
+                    </li>
+                    <li><a href="#"><img src="../actor-webapp/assets/img/icon-about-m.svg" alt="nav"> About
+                            Livestage</a></li>
+                    <li><a href="#"><img src="../actor-webapp/assets/img/icon-contact-m.svg" alt="nav"> Contact Us</a>
+                    </li>
+                    <li><a href="#"><img src="../actor-webapp/assets/img/icon-logout-m.svg" alt="nav"> Logout</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- end -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".btn-canvas-menu").click(function () {
+                $(".canvas-menu").addClass("show");
+            });
+            $(".btn-menu-hide").click(function () {
+                $(".canvas-menu").removeClass("show");
+            });
+            $(".notification-bell .icon").click(function () {
+                $("body").addClass("scroll-none")
+                $(".sidebar-model").addClass("show");
+                $(".overlay").addClass("show");
+            });
+            $(".model-close").click(function () {
+                $("body").removeClass("scroll-none")
+                $(".sidebar-model").removeClass("show");
+                $(".overlay").removeClass("show");
+            });
+        });
+    </script>
+
+</body>
+
+</html>

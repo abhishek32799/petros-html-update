@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+   <!-- Required meta tags -->
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <!-- CSS -->
+   <link href="assets/css/reset.css" rel="stylesheet">
+   <link href="assets/css/stylesheet.css" rel="stylesheet">
+   <link href="assets/css/preeti.css" rel="stylesheet">
+   <link href="assets/css/responsive.css" rel="stylesheet">
+   <title>create-event</title>
+</head>
+
+<body>
+   <div id="app" class="page-create-event">
+      <header class="app-header">
+         <div class="flex-container">
+            <div class="flex-header">
+               <button class="btn-canvas-menu">
+                  <img src="assets/img/icon-canvasmenu.svg" alt="menu">
+               </button>
+               <div class="logo">
+                  <a href="#"><img src="assets/img/logo.svg" alt="logo"></a>
+               </div>
+
+               <nav class="app-menu">
+                  <ul>
+                     <li>
+                        <a href="#"><img src="assets/img/home-menu.svg" alt="Home"> Home</a>
+                     </li>
+                     <li>
+                        <a href="#"><img src="assets/img/myevent-menu.svg" alt="My Events"> My Events</a>
+                     </li>
+                     <li class="active">
+                        <a href="#"><img src="assets/img/createevent-menu.svg" alt="Create Events"> Create Events</a>
+                     </li>
+                     <li>
+                        <a href="#"><img src="assets/img/contact-menu.svg" alt="Contact Us"> Contact Us</a>
+                     </li>
+                  </ul>
+               </nav>
+
+               <div class="account-links">
+                  <div class="search">
+                     <a class="icon" href="#">Search</a>
+                  </div>
+                  <div class="notification-bell">
+                     <a class="icon" href="#">Notification</a>
+                     <span class="count"></span>
+                  </div>
+                  <div class="account-dropdown">
+                     <a class="icon" href="#"><img src="assets/img/icon-userpic.png" alt="User"></a>
+                     <ul>
+                        <li><a href="#">My Account</a></li>
+                        <li><a href="#">About Livestage</a></li>
+                        <li><a href="#">Sign Out</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+
+      <section class="create-event-section">
+         <div class="flex-container ">
+            <div class="breadcrumbs">
+               <ul>
+                  <li><a href="#">Home</a> <span>&#62;</span> </li>
+                  <li>Create Event</li>
+               </ul>
+            </div>
+            <div class="create-event">
+               <div class="top-heading">
+                  <h1>Create an Event</h1>
+               </div>
+               <div class="form">
+                  <form class="form-event">
+                     <div class="field-wrap">
+                        <label>Audience Type</label>
+                        <select name="" id="" class="chng-arrow">
+                           <option value="">Public</option>
+                        </select>
+                     </div>
+
+                     <div class="field-wrap ">
+                        <label>Event Category</label>
+                        <select name="" id="" class="chng-arrow">
+                           <option value="">Select Event Category</option>
+                        </select>
+                     </div>
+
+                     <div class="field-wrap ">
+                        <label>Event Title</label>
+                        <input type="text" name="" required="" placeholder="Title*">
+                     </div>
+
+                     <div class="flex-row gutter-space">
+                        <div class="flex-col-2">
+                           <div class="field-wrap checkbox">
+                              <label>Ticket Type</label>
+                              <div class="ticket">
+                                 <label class="pure-checkbox">
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>Limited Ticket
+                                 </label>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="flex-col-2">
+                           <div class="field-wrap checkbox">
+                              <label class="empty"></label>
+                              <div class="ticket" style="margin-left:auto;">
+                                 <label class="pure-checkbox">
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>Unlimited Ticket
+                                 </label>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="field-wrap">
+                        <label>Normal Ticket Price</label>
+                        <input type="text" name="" required="" placeholder="Normal ticket price( in Euro)">
+                     </div>
+
+                     <div class="field-wrap">
+                        <label>Number of Available Ticket</label>
+                        <input type="text" name="" required="" placeholder="200">
+                     </div>
+
+                     <div class="field-wrap">
+                        <label>Early Bird Tickets</label>
+                        <input type="text" name="" required="" placeholder="500">
+                        <input type="text" name="" required="" placeholder="10%">
+                     </div>
+
+                     <div class="field-con">
+                        <div class="con-label">
+                           <label>Calculate Your Potential Earnings</label>
+                        </div>
+                        <div class="filed-con-inner">
+                     <div class="flex-row gutter-space">
+                        <div class="flex-col-2">
+                           <div class="field-wrap inner-labels">
+                              <label>Ticket Price</label>
+                              <input type="text" name="" required="" placeholder="Enter ticket price $">
+                           </div>
+                        </div>
+                        <div class="flex-col-2">
+                           <div class="field-wrap inner-labels symbol-x">
+                              <label>Ticket Sold</label>
+                              <input type="text" name="" required="" placeholder="No. of ticket sold">
+                           </div>
+                        </div>
+                     </div>
+                     <div class="field-wrap inner-labels">
+                        <label>Estimated Earning</label>
+                        <input type="text" name="" required="" placeholder="Estimated Earning here $">
+                     </div>
+                  </div><!---inner-con-->
+                  </div>
+
+
+                     <div class="field-wrap">
+                        <label>Select Timezone</label>
+                        <select name="" id="" class="chng-arrow">
+                           <option value="">Select Timezone</option>
+                        </select>
+                     </div>
+
+                     <div class="flex-row gutter-space">
+                        <div class="flex-col-2">
+                           <div class="field-wrap time">
+                              <label for="birthday">Event Date and Time</label>
+                              <input type="date" id="birthday" name="birthday">
+                           </div>
+                        </div>
+                        <div class="flex-col-2">
+                           <div class="field-wrap time">
+                              <label class="empty" for="birthday"></label>
+                              <input type="time" id="appt" name="appt" placeholder="HH:MM PM">
+                           </div>
+                        </div>
+                     </div>
+                     <div class="field-wrap">
+                        <label>Select Event Image</label>
+                        <img src="assets/img/event-preview.png" alt="User">
+                     </div>
+
+                     <div class="field-wrap text-con">
+                        <label>Event’s Description</label>
+                        <textarea id="review" name="review" rows="5" cols="50" >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat  amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisiu.
+                        </textarea>
+                     </div>
+                     
+                     <div class="flex-row-3 gutter-space">
+                        <div class="col-flex-3 width-email">
+                           <div class="field-wrap">
+                              <label>Enter Corporate User Email Address (Optional)</label>
+                              <input type="email" id="birthday" name="email" placeholder="Email Address">
+                           </div>
+                        </div>
+                        <div class="col-flex-3 width-price">
+                           <div class="field-wrap pirice-add">
+                              <label class="empty" for="birthday"></label>
+                              <input type="text" id="appt" name="price" placeholder="Price (in euro)">
+                              <div class="icon-plus-wrapper"><a href="#"><img src="assets/img/icon-addround.svg" alt=""></a></div>
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="flex-row-3 gutter-space">
+                        <div class="col-flex-3 width-email">
+                           <div class="field-wrap">
+                              <input type="email" id="birthday" name="email" placeholder="Email Address">
+                           </div>
+                        </div>
+                        <div class="col-flex-3 width-price">
+                           <div class="field-wrap pirice-add ">        
+                              <input type="text" id="appt" name="price" placeholder="Price (in euro)">
+                              <div class="icon-plus-wrapper minus-price"><a href="#"><img src="assets/img/icon-minus.png" alt=""></a></div>
+                           </div>
+                        </div>
+                     </div>
+
+                     
+                     <div class="note-wrapper">
+                       <p>Note: If an email address is not specified for this event then your event will be listed under all corporate events.</p>
+                     </div>
+                     <div class="btn-wrap text-center">
+                        <button type="submit" class="primary-button">Create Event</button>
+                     </div>
+                  </div>
+
+
+                  
+                  </form>
+               </div>
+            </div>
+         </div>
+      </section>
+   </div>
+   <footer class="app-footer">
+      <div class="flex-container">
+          <div class="footer-content">
+              <div class="question">
+                  Questions? Call 415-784-458
+              </div>
+              <div class="footer-menu">
+                  <ul>
+                      <li><a href="#">FAQ</a></li>
+                      <li><a href="#">Terms of Use</a></li>
+                      <li><a href="#">Cookie Preferences</a></li>
+                      <li><a href="#">Help Centre</a></li>
+                      <li><a href="#">Privacy</a></li>
+                      <li><a href="#">Event Information</a></li>
+                  </ul>
+              </div>
+          </div>
+          <div class="copyright">
+              Copyright 2020. All Rights Reserved Live Stage
+          </div>
+      </div>
+  </footer>
+</body>
+
+</html>

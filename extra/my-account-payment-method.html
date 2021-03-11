@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- CSS -->
+      <link href="../actor-webapp/assets/css/reset.css" rel="stylesheet">
+      <link href="../actor-webapp/assets/css/stylesheet.css" rel="stylesheet">
+      <link href="../actor-webapp/assets/css/preeti.css" rel="stylesheet">
+      <link href="../actor-webapp/assets/css/responsive.css" rel="stylesheet">
+      <title>Banking Information</title>
+   </head>
+   <body>
+      <div id="app" class="page-myaccount">
+         <header class="app-header">
+            <div class="flex-container">
+                <div class="flex-header">
+                    <button class="btn-canvas-menu">
+                        <img src="../actor-webapp/assets/img/icon-canvasmenu.svg" alt="menu">
+                    </button>
+                    <div class="logo">
+                        <a href="#"><img src="../actor-webapp/assets/img/logo.svg" alt="logo"></a>
+                    </div>
+
+                    <nav class="app-menu">
+                        <ul>
+                            <li>
+                                <a href="#"><img src="../actor-webapp/assets/img/home-menu.svg" alt="Home"> Home</a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="../actor-webapp/assets/img/myevent-menu.svg" alt="My Events"> My Events</a>
+                            </li>
+                            <li class="active">
+                                <a href="#"><img src="../actor-webapp/assets/img/createevent-menu.svg" alt="Create Events"> Create Events</a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="../actor-webapp/assets/img/contact-menu.svg" alt="Contact Us"> Contact Us</a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <div class="account-links">
+                        <div class="search">
+                            <a class="icon" href="#">Search</a>
+                        </div> 
+                        <div class="notification-bell">
+                            <a class="icon" href="#">Notification</a>
+                            <span class="count"></span>
+                        </div> 
+                        <div class="account-dropdown">
+                            <a class="icon" href="#"><img src="../actor-webapp/assets/img/icon-userpic.png" alt="User"></a>
+                            <ul>
+                                <li><a href="#">My Account</a></li>
+                                <li><a href="#">About Livestage</a></li>
+                                <li><a href="#">Sign Out</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+         <section class="myaccount-section">
+            <div class="flex-container ">
+               <div class="breadcrumbs">
+                  <ul>
+                      <li><a href="#">Home</a> <span>&#62;</span> </li>
+                      <li><a href="#">My Account</a> <span>&#62;</span> </li>
+                      <li>My Payment</li>
+                  </ul>
+              </div>
+              <div class="myaccount banking-information">
+                  <div class="top-heading">
+                     <h1>Choose Payment Method</h1>
+                  </div>
+                  <div class="form-wrap">
+                     <form class="form-bankingInfo">
+                        <div class="field-wrap">
+                           <div class="input-pay-wrapper">
+                            <div class="forgotlink">
+                                <label class="pure-checkbox">
+                                <input type="checkbox">
+                                <span class="checkmark checkmark-pay"></span><span class="space-lhs">Payment Method 1</span>
+                                </label>
+                             </div>
+                             <div class="icons-container">
+                                <span class="space-bw"><a href=""><img src="../actor-webapp/assets/img/icon-edit-2.svg" alt=""></a></span>
+                                <span><a href=""><img src="../actor-webapp/assets/img/icon-trash.svg" alt=""></a></span>
+                             </div><!---icons-container--->
+                           </div><!---this is for check mart-->
+                        </div><!---payment-1-->
+
+                        <div class="form-wrap">
+                            <form class="form-bankingInfo">
+                               <div class="field-wrap">
+                                  <div class="input-pay-wrapper">
+                                   <div class="forgotlink">
+                                       <label class="pure-checkbox">
+                                       <input type="checkbox">
+                                       <span class="checkmark checkmark-pay"></span><span class="space-lhs">Payment Method 2</span>
+                                       </label>
+                                    </div>
+                                    <div class="icons-container">
+                                       <span class="space-bw"><a href=""><img src="../actor-webapp/assets/img/icon-edit-2.svg" alt=""></a></span>
+                                       <span><a href=""><img src="../actor-webapp/assets/img/icon-trash.svg" alt=""></a></span>
+                                    </div><!---icons-container--->
+                                  </div><!---this is for check mart-->
+                               </div><!---payment-2-->
+
+                               <div class="form-wrap">
+                                <form class="form-bankingInfo">
+                                   <div class="field-wrap">
+                                      <div class="input-pay-wrapper">
+                                       <div class="forgotlink">
+                                           <label class="pure-checkbox">
+                                           <input type="checkbox">
+                                           <span class="checkmark checkmark-pay"></span><span class="space-lhs">Credit Card / Debit Card</span>
+                                           <span id="fix-align"><img src="../actor-webapp/assets/img/img-mastercard.svg" alt=""> <img src="../actor-webapp/assets/img/icon-visa.png" alt=""></span>
+                                           </label>
+                                        </div>
+                                        <div class="icons-container">
+                                           <span class="space-bw"><a href=""><img src="../actor-webapp/assets/img/icon-edit-2.svg" alt=""></a></span>
+                                           <span><a href=""><img src="../actor-webapp/assets/img/icon-trash.svg" alt=""></a></span>
+                                        </div><!---icons-container--->
+                                      </div><!---this is for check mart-->
+                                   </div><!---credit and debit card-->
+
+                                   <div class="form-wrap">
+                                    <form class="form-bankingInfo">
+                                       <div class="field-wrap">
+                                          <div class="input-pay-wrapper border-bottom">
+                                           <div class="forgotlink">
+                                               <div class="boder-con">
+                                               <label class="pure-checkbox">
+                                               <span class="checkmark checkmark-pay plus-btn"></span><span class="space-lhs">Add New Card</span>
+                                               </label>
+                                              </div><!---boder-con-->   
+                                            </div>
+                                           <div class="check-row">
+                                               <div class="check-col">
+                                                    <label class="pure-checkbox">
+                                                      <input type="checkbox">
+                                                      <span class="checkmark checkmark-pay"></span><span class="space-2 space-lhs">Payment Method 2</span>
+                                                    </label>
+                                               </div>
+                                               <div class="check-col col-space-1">
+                                                <label class="pure-checkbox">
+                                                  <input type="checkbox">
+                                                  <span class="checkmark checkmark-pay"></span><span class="space-2 space-lhs">Payment Method 2</span>
+                                                </label>
+                                           </div>
+                                           </div>
+                                           <div class="field-wrap corner-space">
+                                            <label>Card Number</label>
+                                            <input type="text" name="" required="" placeholder="0000 0000 0000">
+                                            <div class="card-icon-con"><!---working here-->
+                                                <img src="../actor-webapp/assets/img/icon-card.svg" alt="">
+                                            </div>
+                                            
+                                            <div class="drop-wrapper">
+                                                <label for="">Expiry Date</label>
+                                                <div class="drop-row-1">
+                                                    
+                                                    <div class="drop-col-1">
+                                                       <select name="" id="" class="chng-arrow">
+                                                        <option value="">Month</option>
+                                                       </select>
+                                                   </div><!---drop-col-1-->
+                                                   <div class="drop-col-1">
+                                                     <select name="" id="" class="chng-arrow">
+                                                      <option value="">Year</option>
+                                                     </select>
+                                                 </div><!---drop-col-1-->
+                                            
+                                                 
+                                                 <div class="drop-col-1 w-change">
+                                                    <div class="field-wrap cvv-wrap">
+                                                        <div class="label-cvv">
+                                                          <label for="birthday">CVV</label>
+                                                        </div>
+                                                        <input type="text" name="" required="" placeholder="">
+                                                        <div class="card-icon-cvv">
+                                                            <a href=""><img src="../actor-webapp/assets/img/icon-cvv-card.svg" alt=""></a>
+                                                        </div>
+                                                     </div><!---drop-col-1--->
+                                                    
+                                               </div><!---drop-col-1-->
+                                               
+                                               </div><!---drop-row-1-->
+                                               <div class="btn-wrap text-center">
+                                                <button type="submit" class="primary-button">Save Card</button> 
+                                             </div>
+                                            </div><!---drop wrapper-->
+                                        </div><!---drop wrapper-->
+
+                                             
+                                           </div>
+                                          </div><!---this is for check mart-->
+                                       </div><!---credit and debit card-->
+
+                           
+                              
+
+
+                       
+                     </form>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+
+         <footer class="app-footer">
+            <div class="flex-container">
+                <div class="footer-content">
+                    <div class="question">
+                        Questions? Call 415-784-458
+                    </div>
+                    <div class="footer-menu">
+                        <ul>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Terms of Use</a></li>
+                            <li><a href="#">Cookie Preferences</a></li>
+                            <li><a href="#">Help Centre</a></li>
+                            <li><a href="#">Privacy</a></li>
+                            <li><a href="#">Event Information</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="copyright">
+                    Copyright 2020. All Rights Reserved Live Stage
+                </div>
+            </div>
+        </footer>
+
+      </div>
+   </body>
+</html>

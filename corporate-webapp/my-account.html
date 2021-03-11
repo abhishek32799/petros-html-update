@@ -1,0 +1,351 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+   <!-- Required meta tags -->
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <!-- CSS -->
+   <link href="../actor-webapp/assets/css/reset.css" rel="stylesheet">
+   <link href="../actor-webapp/assets/css/stylesheet.css" rel="stylesheet">
+   <link href="../actor-webapp/assets/css/preeti.css" rel="stylesheet">
+   <link href="../actor-webapp/assets/css/responsive.css" rel="stylesheet">
+   <title>My Account</title>
+</head>
+
+<body>
+   <div id="app" class="page-myaccount">
+      <header class="app-header">
+         <div class="flex-container">
+            <div class="flex-header">
+               <button class="btn-canvas-menu">
+                  <img src="../actor-webapp/assets/img/icon-canvasmenu.svg" alt="menu">
+               </button>
+               <div class="logo">
+                  <a href="#"><img src="../actor-webapp/assets/img/logo.svg" alt="logo"></a>
+               </div>
+
+               <nav class="app-menu">
+                  <ul>
+                     <li>
+                        <a href="#"><img src="../actor-webapp/assets/img/home-menu.svg" alt="Home"> Home</a>
+                     </li>
+                     <li>
+                        <a href="#"><img src="../actor-webapp/assets/img/myevent-menu.svg" alt="My Events"> My
+                           Events</a>
+                     </li>
+                     <li class="active">
+                        <a href="#"><img src="../actor-webapp/assets/img/createevent-menu.svg" alt="Create Events">
+                           Create Events</a>
+                     </li>
+                     <li>
+                        <a href="#"><img src="../actor-webapp/assets/img/contact-menu.svg" alt="Contact Us"> Contact
+                           Us</a>
+                     </li>
+                  </ul>
+               </nav>
+
+               <div class="account-links">
+                  <div class="search">
+                     <a class="icon" href="#">Search</a>
+                  </div>
+                  <div class="notification-bell">
+                     <a class="icon" href="#">Notification</a>
+                     <span class="count"></span>
+                  </div>
+                  <div class="account-dropdown">
+                     <a class="icon" href="#"><img src="../actor-webapp/assets/img/icon-userpic.png" alt="User"></a>
+                     <ul>
+                        <li><a href="#">My Account</a></li>
+                        <li><a href="#">About Livestage</a></li>
+                        <li><a href="#">Sign Out</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+
+      <section class="myaccount-section">
+         <div class="flex-container ">
+            <div class="breadcrumbs">
+               <!-- <ul>
+                      <li><a href="#">Home</a> <span>&#62;</span> </li>
+                      <li>My Account</li>
+                  </ul> -->
+            </div>
+            <div class="myaccount enuser-myaccount">
+               <div class="top-heading">
+                  <h1>My Account</h1>
+               </div>
+               <div class="form-myaccount">
+                  <div class="myaccount-item">
+                     <div class="flex-row gutter-space">
+                        <div class="flex-col-35">
+                           <div class="title">
+                              <img src="../actor-webapp/assets/img/icon-ac-user.svg" alt="User">
+                              <h4> User Details</h4>
+                           </div>
+                        </div>
+                        <div class="flex-col-65">
+                           <div class="flex-row gutter-space">
+                              <div class="flex-col-65">
+                                 <p>Profile Photo: A Photo helps <br />
+                                    personalize your account.</p>
+                              </div>
+                              <div class="flex-col-35">
+                                 <div class="dp">
+                                    <img src="../actor-webapp/assets/img/dp-photo.jpg" alt="User">
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="flex-row gutter-space">
+                              <div class="flex-col-65">
+                                 <p>Adam Smith</p>
+                              </div>
+                              <div class="flex-col-35">
+                                 <a><img src="../actor-webapp/assets/img/icon-edit.png" alt="User"></a>
+                              </div>
+                           </div>
+                           <div class="flex-row gutter-space">
+                              <div class="flex-col-65">
+                                 <p>Username748521.1@gmail.com</p>
+                              </div>
+                              <div class="flex-col-35">
+                                 <a><img src="../actor-webapp/assets/img/icon-edit.png" alt="User"></a>
+                              </div>
+                           </div>
+                           <div class="flex-row gutter-space">
+                              <div class="flex-col-65">
+                                 <p>Password: ***********</p>
+                              </div>
+                              <div class="flex-col-35">
+                                 <a href="#" class="btn-text">Change Password</a>
+                              </div>
+                           </div>
+                           <div class="flex-row gutter-space">
+                              <div class="flex-col-65">
+                                 <p>Phone: 94851423556</p>
+                              </div>
+                              <div class="flex-col-35">
+                                 <a><img src="../actor-webapp/assets/img/icon-edit.png" alt="User"></a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="myaccount-item">
+                     <div class="flex-row gutter-space">
+                        <div class="flex-col-35">
+                           <div class="title">
+                              <img src="../actor-webapp/assets/img/icon-office.svg" alt="User">
+                              <h4>Company Details</h4>
+                           </div>
+                        </div>
+                        <div class="flex-col-65">
+                           <div class="flex-row gutter-space">
+                              <div class="flex-col-65">
+                                 <div class="field-wrap company-wrap">
+                                    <input type="text" name="" required="" placeholder="Company Name">
+                                 </div>
+                                 <div class="field-wrap company-wrap">
+                                    <input type="text" name="" required="" placeholder="Company Location">
+                                 </div>
+                                 <div class="field-wrap company-wrap">
+                                    <select>
+                                       <option>Company Capacity</option>
+                                    </select>
+                                 </div>
+                                 <div class="field-wrap company-wrap company-description">
+                                    <input type="text" name="" required="" placeholder="Description">
+                                 </div>
+                                 <div class="field-wrap">
+                                    <div class="inner-field-wrapper">
+                                       <a class="icon-viewpswd add-company-web"><img
+                                             src="../actor-webapp/assets/img/add.svg" alt="img"></a>
+                                       <input type="text" name="" required="" placeholder="Website Link*">
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="flex-col-35">
+                                 <a class="btn-text">Manage Payment info</a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="myaccount-item">
+                     <div class="flex-row gutter-space">
+                        <div class="flex-col-35">
+                           <div class="title">
+                              <img src="../actor-webapp/assets/img/icon-sociallinks.svg" alt="User">
+                              <h4>Social linked accounts </h4>
+                           </div>
+                        </div>
+                        <div class="flex-col-65">
+                           <div class="flex-row gutter-space">
+                              <div class="flex-col-65">
+                                 <p><a href="#" class="social-profile"><img
+                                          src="../actor-webapp/assets/img/icon-google.png" alt="User"> Google</a></p>
+                              </div>
+                              <div class="flex-col-35">
+                                 <button class="active-toggle">
+                                    <img src="../actor-webapp/assets/img/toggle-Off.png" alt="User">
+                                 </button>
+                              </div>
+                           </div>
+                           <div class="flex-row gutter-space">
+                              <div class="flex-col-65">
+                                 <p><a href="#" class="social-profile"><img
+                                          src="../actor-webapp/assets/img/icon-facebook.png" alt="User"> Facebook</a>
+                                 </p>
+                              </div>
+                              <div class="flex-col-35">
+                                 <button class="active-toggle">
+                                    <img src="../actor-webapp/assets/img/toggle-Off.png" alt="User">
+                                 </button>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+
+
+                  <div class="myaccount-item">
+                     <div class="flex-row gutter-space">
+                        <div class="flex-col-35">
+                           <div class="title">
+                              <img src="../actor-webapp/assets/img/icon-banking.svg" alt="User">
+                              <h4>My Payment Method </h4>
+                           </div>
+                        </div>
+                        <div class="flex-col-65">
+                           <div class="flex-row gutter-space">
+                              <div class="flex-col-65">
+                                 <p><img src="../actor-webapp/assets/img/img-mastercard.svg" alt="User">
+                                    ************4784</p>
+                              </div>
+                              <div class="flex-col-35">
+                                 <a class="btn-text">Manage Payment info</a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="myaccount-item">
+                     <div class="flex-row gutter-space">
+                        <div class="flex-col-35">
+                           <div class="title">
+                              <img src="../actor-webapp/assets/img/icon-voucher.svg" alt="User">
+                              <h4>My Voucher </h4>
+                           </div>
+                        </div>
+                        <div class="flex-col-65">
+                           <div class="flex-row gutter-space">
+                              <div class="flex-col-65"> </div>
+                              <div class="flex-col-35">
+                                 <a class="btn-text">Redeem you voucher</a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="myaccount-item">
+                     <div class="flex-row gutter-space">
+                        <div class="flex-col-35">
+                           <div class="title">
+                              <img src="../actor-webapp/assets/img/icon-settings.svg" alt="User">
+                              <h4>Settings </h4>
+                           </div>
+                        </div>
+                        <div class="flex-col-65">
+                           <div class="flex-row gutter-space">
+                              <div class="flex-col-65 flex-white">
+                                 <p><a class="btn-text" href="#">Notifications Alert</a></p>
+                                 <p><a class="btn-text" href="#">Manage Devices </a></p>
+                                 <p><a class="btn-text deactivate-accout" href="#">Deactivate your account </a></p>
+                                 <p><a class="btn-text" href="#">Sign out of all devices </a></p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+               </div>
+            </div>
+         </div>
+      </section>
+
+
+      <footer class="app-footer">
+         <div class="flex-container">
+            <div class="footer-content">
+               <div class="question">
+                  Questions? Call 415-784-458
+               </div>
+               <div class="footer-menu">
+                  <ul>
+                     <li><a href="#">FAQ</a></li>
+                     <li><a href="#">Terms of Use</a></li>
+                     <li><a href="#">Cookie Preferences</a></li>
+                     <li><a href="#">Help Centre</a></li>
+                     <li><a href="#">Privacy</a></li>
+                     <li><a href="#">Event Information</a></li>
+                  </ul>
+               </div>
+            </div>
+            <div class="copyright">
+               Copyright 2020. All Rights Reserved Live Stage
+            </div>
+         </div>
+      </footer>
+
+      <!-- Deactivate account - Popup model -->
+      <div class="popup-model">
+         <div class="model-head">
+            <h2>Deactivate your account</h2>
+            <a href="#" class="model-close">&#10006;</a>
+         </div>
+         <div class="model-body">
+            <div class="model-content">
+               <form>
+                  <div class="field-wrap">
+                     <textarea class="reason-deactivate"></textarea>
+                  </div>
+                  <div class="field-wrap2">
+                     <input class="pswd-deactivate" placeholder="Enter password*">
+                  </div>
+                  <div class="btn-row text-center">
+                     <button class="primary-button">Deactivate</button>
+                  </div>
+               </form>
+            </div>
+         </div>
+      </div>
+      <div class="overlay"></div>
+      <!-- end -->
+
+   </div>
+
+
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   <script>
+      $(document).ready(function () {
+         $(".deactivate-accout").click(function () {
+            $(".popup-model").addClass("show");
+            $(".overlay").addClass("show");
+         });
+         $(".model-close").click(function () {
+            $(".popup-model").removeClass("show");
+            $(".overlay").removeClass("show");
+         });
+      });
+   </script>
+</body>
+
+</html>
