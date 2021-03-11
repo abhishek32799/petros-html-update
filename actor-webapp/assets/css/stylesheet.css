@@ -3153,6 +3153,14 @@ margin-bottom: 0px;
   font-size: 14px;
 } 
 
+.mail-box h1 {
+  font-size: 28px;
+}
+
+.mail-fsize {
+  font-size:24px !important;
+}
+
 
 /********************************mail template code ends here********************************/
 

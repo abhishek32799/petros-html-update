@@ -28,21 +28,44 @@
          <div class="flex-container">
             <div class="grey-wrap bank-wrap mail-temp-wrap mail-size">
                <div class="login-box mail-box">
-                  <h1 class="red-color">Registration Declined</h1>
+                  <h1>Event Cancelled</h1>
+                  <h3>Event Name</h3>
                   <img src="../actor-webapp/assets/img/forgot-screen-bg-img.svg" alt="img">
                   <div class="title">
                      <!-- <h1>Welcome to LiveStage</h1> -->
                      <p class="mt-15">
-                        Thank you for your interest to become as a performer on LiveStage.
+                        We should inform you that the following event has been cancelled from [Artist Name].
                      </p>
-                     <br>
+                     <div class="mail-details-wrap">
+                        <div class="mail-row">
+                           <div class="maildetails-col">
+                              <p class="red-color"><strong>Event Title</strong></p>
+                           </div>
+                           <div class="maildetails-col">
+                              <p class="red-color"><strong>Artist Name</strong></p>
+                           </div>
+                        </div>
+                     </div>
+                     <p class="mt-15 mail-fix">
+                        Reason: [display reason selected from the artist upon cancellation]
+                     </p>
+                     <p class="mt-15 mail-fix">
+                        Note left from [Artist Name]:[display note from left from artist upon cancellation].
+                     </p>
+
+
                      <p class="mt-15">
-                        We are sorry to inform you that your registration has been rejected due to misleading
-                        information.
+                        Please find below your Voucher Code that can be used for any other upcoming events on
+                        Livestage:
                      </p>
+
+                     <h2 class="mail-space red-color">[Voucher Code]
+                     </h2>
+                     <p class="mt-15">
+                        you do not want to miss a second of this live event!
+                     </p>
+
                      <div class="thanks-sec">
-                        <p>All the best,
-                        </p>
                         <p>Your LiveStage Team
                         </p>
                      </div>
