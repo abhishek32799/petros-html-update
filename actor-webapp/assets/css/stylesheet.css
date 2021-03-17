@@ -3161,6 +3161,40 @@ margin-bottom: 0px;
   font-size:24px !important;
 }
 
+.m-auto-cancel {
+  margin:0 0 20px 0 !important;
+ 
+}
+
+.icon-edit-s {
+  padding-left: 10px;
+}
+
+.w-wrap-text {
+  width: 60%;
+}
+
+.w-wrap-text textarea {
+  width: 100%;
+  resize: none;
+}
+
+.btn-ac-row {
+  display: flex;
+}
+
+.btn-space-cancel {
+  margin-left: 20px;
+}
+
+.under-line-ac {
+  text-decoration: underline;
+}
+
+.w-wrap-text-c {
+  width: 80%;
+}
+
 
 /********************************mail template code ends here********************************/
 
