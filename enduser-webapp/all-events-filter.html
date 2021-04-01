@@ -89,9 +89,10 @@
                                     <li><a href="#">Price - High to Low</a></li>
                                 </ul>
                             </div>
-                            <div class="filterby">
-                                <a href="#"><img src="../actor-webapp/assets/img/icon-filter.svg" alt="filter"></a>
-                                <div class="filterby-options filter-opt-2">
+                            <div class="filterby fliter-new">
+                                <a id="filter-click" href="javascript:void(0)"><img
+                                        src="../actor-webapp/assets/img/icon-filter.svg" alt="filter"></a>
+                                <div class="filterby-options filter-opt-2 reveal-filter-1">
                                     <div class="filter-menu-wrapper">
                                         <div class="filter-title">
                                             <h5>Filter</h5>
@@ -178,10 +179,11 @@
                                         <div class="filter-btn-row">
                                             <div class="filter-btn-col">
                                                 <button type="submit"
-                                                    class="primary-button prime-btn-filter">Apply</button>
+                                                    class="primary-button prime-btn-filter btn-res-fix">Apply</button>
                                             </div>
                                             <div class="filter-btn-col">
-                                                <button type="submit" class="primary-button prime-btn-filter">Clear
+                                                <button type="submit"
+                                                    class="primary-button prime-btn-filter btn-res-fix">Clear
                                                     All</button>
                                             </div>
                                         </div>
@@ -708,6 +710,10 @@
                 $("body").removeClass("scroll-none")
                 $(".sidebar-model").removeClass("show");
                 $(".overlay").removeClass("show");
+            });
+
+            $("#filter-click").click(function () {
+                $(".reveal-filter-1").toggle("slow");
             });
         });
     </script>

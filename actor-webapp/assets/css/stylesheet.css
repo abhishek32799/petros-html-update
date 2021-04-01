@@ -855,6 +855,7 @@ h4 {
   border-top: 0.5px solid #3d3d3d;
   padding: 12px 40px 15px 15px;
   text-align: right;
+  position: relative;
 }
 .share-event a {
   background: url("../img/icon-share.svg") right center no-repeat;
@@ -2033,9 +2034,9 @@ p img {
   box-shadow: -4px 3px 4px rgba(0, 0, 0, 0.04);
   border-radius: 0px 0px 5px 5px;
 }
-.filterby:hover .filterby-options {
-  display: block;
-}
+/* .filterby:hover .filterby-options {
+  display: block;/* this is used for filters on 
+} */
 .events-listing .download {
   color: #e50914 !important;
   font-weight: 600;
@@ -2345,7 +2346,7 @@ p img {
 }
 .card-icon-con {
   position: absolute;
-  right: 48px;
+  right: 35px;
   top: 56px;
 }
 
@@ -3055,154 +3056,41 @@ font-size: 15px;
    max-width: 57%;
  }
 
-/*****************************below code is for email templates******************************/
-
-.mail-color-change {
-  background-color:#fff;
+.card-field-wrap {
+  position: relative;
 }
 
-.mail-temp-wrap {
-  background-color:#1e1c1c;
-  max-width: 480px;
-  box-shadow: none;
-  padding-bottom: 0px;
+
+.bg-alert-change {
+ background: rgba(23, 20, 20, 1);
 }
 
-.mail-temp-wrap img {
-  max-width: 60%;
-}
-
-.mail-temp-wrap .title h1 {
-  font-size: 24px;
-}
-
-.mail-temp-wrap .title p {
-  font-size: 18px;
-}
-
-.mail-box {
-  max-width: 400px;
-}
-
-.mail-space {
-  margin-top: 20px;
-}
-
-.mail-footer {
-  border-top: 1px solid #fff;
-  padding: 20px 20px;
-}
-
-.mail-details-wrap {
-  padding: 15px 0px;
-}
-
-.mail-row {
+.social-wrap {
+  width: 200px;
+  min-height: 100px;
+  background: rgba(23, 20, 20, 1);
+  border:1px solid #fff;
+  position: absolute;
+  right: 0px;
+  top:48px;
+  border-radius: 5px;
+  padding: 10px;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content:flex-start;
+  text-align:left;
+  flex-wrap: wrap;
+  display: none;
+  z-index: +999;
 }
 
-.maildetails-col { 
-    width: 50%;
-    margin-left: auto;
-}
-
-.mail-size img {
-  max-width: 80%;
-  padding: 10px 0px;
-}
-
-.mail-fix {
-  padding: 20px 0px;
-}
-.thanks-sec {
-  display: flex;
-  flex-direction: column;
-  padding-top: 50px;
-  align-items: flex-start;
-  
-}
-
-.thanks-sec p {
-  font-style: italic;
-}
-
-.red-color {
-  color: #E50914;
-}
-
-.row-mail-title {
-  width: 50%;
-  display: flex;
-  justify-content: center;
-}
-
-.row-mail-title h3 {
-margin-top: 10px;
-margin-bottom: 0px;
-
-}
-
-.maildetails-col-2 {
-  width: 100%;
-  margin: auto;
-  padding: 10px 0px;
-}
-
-.maildetails-col-2 p {
-  font-size: 20px;
-}
-
-.col-mail {
-  width: 50%;
-  font-size: 14px;
-} 
-
-.mail-box h1 {
-  font-size: 28px;
-}
-
-.mail-fsize {
-  font-size:24px !important;
-}
-
-.m-auto-cancel {
-  margin:0 0 20px 0 !important;
- 
-}
-
-.icon-edit-s {
-  padding-left: 10px;
-}
-
-.w-wrap-text {
-  width: 60%;
-}
-
-.w-wrap-text textarea {
-  width: 100%;
-  resize: none;
-}
-
-.btn-ac-row {
+.social-wrap-2 {
   display: flex;
 }
-
-.btn-space-cancel {
-  margin-left: 20px;
+.social-col {
+  width: 25%;
+  text-align: center;
 }
 
-.under-line-ac {
-  text-decoration: underline;
-}
-
-.w-wrap-text-c {
-  width: 100%;
-}
-
-
-/********************************mail template code ends here********************************/
 
 /******************************custom media query starts here******************************/
 
@@ -3282,6 +3170,10 @@ margin-bottom: 0px;
   .artist-lhs,
   .artist-rhs {
     width: 100%;
+  }
+
+  .btn-res-fix {
+    padding: 0px 0px 0px 0px !important;
   }
 }
 
